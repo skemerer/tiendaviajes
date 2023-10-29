@@ -6,6 +6,7 @@ const paquetes = [
 
 function mostrarPaquetes() {
     const sectionPaquetes = document.getElementById("section-paquetes");
+    
 
     paquetes.forEach((paquete) => {
         const container = document.createElement("div");

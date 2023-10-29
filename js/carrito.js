@@ -3,6 +3,7 @@ let montoTotalCompra = document.getElementById("montoTotalCompra");
 let cantPaquetes = document.getElementById("cantPaquetes");
 let botonFinalizar = document.getElementById("botonFinalizar");
 
+
 function agregarAlCarrito(paquete) {
     carrito.push(paquete);
     localStorage.setItem("carrito", JSON.stringify(carrito));
